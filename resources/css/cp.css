@@ -1,0 +1,20 @@
+/* This is all you. */
+/* CSS */
+.overlay-content:hover {
+    display: block;
+}
+.carousel-inner {
+    width: 1035.35px;
+    height: 198px;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+

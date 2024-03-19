@@ -1,0 +1,50 @@
+<!-- project begin -->
+<div class="project">
+    <div class="row">
+        <div class="span12">
+            <h3 class="float-left">Latest Projects</h3>
+            <div class="control-slider">
+                <span class="prev-slider"><i class="icon-chevron-left"></i></span><span class="next-slider"><i class="icon-chevron-right"></i></span>
+            </div>
+        </div>
+
+
+        <div class="clearfix"></div>
+        <div class="flexslider pf-carousel project-carousel">
+
+            <ul class="slides gallery">
+                
+                {{ collection:portfolio }}
+                <li class="single-pf-item item">
+                    <div class="span3">
+                        <div class="picframe">
+                            <span class="overlay">
+                                <span class="info-area">
+                                    <a class="img-icon-url" href="..."></a>
+                                    <a class="img-icon-zoom" href=".{{ project_image }}" data-type="prettyPhoto[gallery]" title=""></a>
+                                </span>
+                            <span class="pf_text">
+                                    <span class="project-name">Project Name #1</span>
+                            <span>Photography</span>
+                            </span>
+                            </span>
+                            <img src=".{{ project_image }}" alt="" />
+                            <div class="pf_info">
+                                <h4> {{ title }} </h4>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </li>
+                {{ /collection:portfolio }}
+                
+
+
+            </ul>
+        </div>
+
+    </div>
+
+</div>
+</div>
+<!-- project close -->tt

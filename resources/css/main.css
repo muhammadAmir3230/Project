@@ -7,7 +7,6 @@ To enable css file simply remove mark '/*' and '* /' between line of css file
 /* -------------------------------------------------- */
 
 /* bootstrap framework */
-
 @import url("bootstrap.css");
 @import url("bootstrap-responsive.css");
 @import url("../rs-plugin/css/settings.css");
@@ -16,18 +15,24 @@ To enable css file simply remove mark '/*' and '* /' between line of css file
 @import url("flexslider.css");
 @import url("style.css");
 @import url("rev-settings.css");
-@import url("../font-awesome/css/font-awesome.css");
+@import url("../font-awesome/css/font-awesome.css"); 
+
+
 /* -------------------------------------------------- 
 widescreen.css used to fit in wide screen monitor (>1200px)
 if you disable this, the container width would be maximum 960px
-/* -------------------------------------------------- 
-@import url("wide-screen.css"); */
+/* --------------------------------------------------  */
+@import url("wide-screen.css");
+
+
 
 /* -------------------------------------------------- 
 to use boxed layout please enable code below and disable 'wide-screen.css' above
 /* -------------------------------------------------- */
-
 /* @import url("boxed.css"); */
+
+
+
 
 /* load  color css 
 ------------------------------
@@ -42,6 +47,9 @@ pink.css
 purple.css
 yellow.css
 */
-
 @import url("colors/orange.css");
+
+
+
 @import url("switcher.css");
+
